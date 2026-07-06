@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Slide 26: Quantum Logic - Quantum Teleportation Circuit (based on Quantum-Summer-Lab-2025 slide 217.jpg) -->
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0B0F1E"/>
+      <stop offset="55%"  stop-color="#0F1530"/>
+      <stop offset="100%" stop-color="#151B3B"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#4FD8E8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4FD8E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#8B6BE0" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8B6BE0" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3FD0E0"/>
+      <stop offset="100%" stop-color="#8B6BE0"/>
+    </linearGradient>
+
+    <!-- Reusable gate symbols -->
+    <symbol id="gateBox" viewBox="0 0 140 140">
+      <rect x="0" y="0" width="140" height="140" rx="18" style="fill:#182449;stroke:#8B6BE0;stroke-width:5px;"/>
+    </symbol>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect x="0" y="0" width="3840" height="2160" fill="url(#bgGradient)"/>
+
+  <!-- Subtle circuit-board style grid lines (very low opacity) -->
+  <g stroke="#4FD8E8" stroke-width="1.5" opacity="0.06">
+    <line x1="0" y1="360"  x2="3840" y2="360"/>
+    <line x1="0" y1="720"  x2="3840" y2="720"/>
+    <line x1="0" y1="1080" x2="3840" y2="1080"/>
+    <line x1="0" y1="1440" x2="3840" y2="1440"/>
+    <line x1="0" y1="1800" x2="3840" y2="1800"/>
+    <line x1="640"  y1="0" x2="640"  y2="2160"/>
+    <line x1="1280" y1="0" x2="1280" y2="2160"/>
+    <line x1="1920" y1="0" x2="1920" y2="2160"/>
+    <line x1="2560" y1="0" x2="2560" y2="2160"/>
+    <line x1="3200" y1="0" x2="3200" y2="2160"/>
+  </g>
+
+  <!-- Decorative glows -->
+  <circle cx="3450" cy="260" r="520" fill="url(#glowCyan)"/>
+  <circle cx="420" cy="1950" r="560" fill="url(#glowPurple)"/>
+
+  <!-- ============ HEADER / EYEBROW ============ -->
+  <text x="160" y="200" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="63"
+        letter-spacing="9" fill="#4FD8E8" font-weight="600">QUANTUM LOGIC</text>
+
+  <!-- Accent rule -->
+  <rect x="160" y="250" width="330" height="12" rx="6" fill="url(#accentGradient)"/>
+
+  <!-- ============ CIRCUIT: Quantum Teleportation ============ -->
+
+  <!-- Classical control connectors (drawn first, behind gates) -->
+  <g stroke="#8B6BE0" stroke-width="8">
+    <line x1="2600" y1="1080" x2="2600" y2="1460"/>
+    <line x1="3000" y1="700"  x2="3000" y2="1460"/>
+  </g>
+
+  <!-- CNOT connectors -->
+  <g stroke="#8B6BE0" stroke-width="8">
+    <line x1="1300" y1="1080" x2="1300" y2="1460"/>
+    <line x1="1700" y1="700"  x2="1700" y2="1080"/>
+  </g>
+
+  <!-- Qubit wires -->
+  <g stroke="#4FD8E8" stroke-width="5">
+    <line x1="700" y1="700"  x2="3300" y2="700"/>
+    <line x1="700" y1="1080" x2="3300" y2="1080"/>
+    <line x1="700" y1="1460" x2="3300" y2="1460"/>
+  </g>
+
+  <!-- Row labels -->
+  <text x="680" y="718" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="58" fill="#F5F6FA"
+  >qMessage&#160;&#160;<tspan font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="64">|x&#10217;</tspan></text>
+  <text x="680" y="1098" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="58" fill="#F5F6FA"
+  >qAlice&#160;&#160;<tspan font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="64">|0&#10217;</tspan></text>
+  <text x="680" y="1478" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="58" fill="#F5F6FA"
+  >qBob&#160;&#160;<tspan font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="64">|0&#10217;</tspan></text>
+
+  <!-- Output label -->
+  <text x="3320" y="1478" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="64" fill="#F5F6FA">|x&#10217;</text>
+
+  <!-- Col 1: H gate on qAlice -->
+  <use href="#gateBox" x="830" y="1010" width="140" height="140"/>
+  <text x="900" y="1108" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-style="italic" font-weight="700" fill="#F5F6FA">H</text>
+
+  <!-- Col 2: CNOT control (qAlice) + target (qBob) -->
+  <circle cx="1300" cy="1080" r="20" fill="#8B6BE0"/>
+  <circle cx="1300" cy="1460" r="58" style="fill:#182449;stroke:#8B6BE0;stroke-width:6px;"/>
+  <line x1="1268" y1="1460" x2="1332" y2="1460" stroke="#8B6BE0" stroke-width="8"/>
+  <line x1="1300" y1="1428" x2="1300" y2="1492" stroke="#8B6BE0" stroke-width="8"/>
+
+  <!-- Col 3: CNOT control (qMessage) + target (qAlice) -->
+  <circle cx="1700" cy="700" r="20" fill="#8B6BE0"/>
+  <circle cx="1700" cy="1080" r="58" style="fill:#182449;stroke:#8B6BE0;stroke-width:6px;"/>
+  <line x1="1668" y1="1080" x2="1732" y2="1080" stroke="#8B6BE0" stroke-width="8"/>
+  <line x1="1700" y1="1048" x2="1700" y2="1112" stroke="#8B6BE0" stroke-width="8"/>
+
+  <!-- Col 4: H gate on qMessage -->
+  <use href="#gateBox" x="2030" y="630" width="140" height="140"/>
+  <text x="2100" y="728" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-style="italic" font-weight="700" fill="#F5F6FA">H</text>
+
+  <!-- Col 5: Measurement on qAlice + classical X on qBob -->
+  <use href="#gateBox" x="2530" y="1010" width="140" height="140"/>
+  <g transform="translate(2600,1080)">
+    <path d="M -35,15 A 40,40 0 0 1 35,15" fill="none" stroke="#F5F6FA" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="15" x2="26" y2="-22" stroke="#F5F6FA" stroke-width="6" stroke-linecap="round"/>
+    <text x="0" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-style="italic" fill="#F5F6FA">M</text>
+  </g>
+  <circle cx="2600" cy="1460" r="60" fill="#8B6BE0"/>
+  <text x="2600" y="1487" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-style="italic" font-weight="700" fill="#F5F6FA">X</text>
+
+  <!-- Col 6: Measurement on qMessage + classical Z on qBob -->
+  <use href="#gateBox" x="2930" y="630" width="140" height="140"/>
+  <g transform="translate(3000,700)">
+    <path d="M -35,15 A 40,40 0 0 1 35,15" fill="none" stroke="#F5F6FA" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="15" x2="26" y2="-22" stroke="#F5F6FA" stroke-width="6" stroke-linecap="round"/>
+    <text x="0" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-style="italic" fill="#F5F6FA">M</text>
+  </g>
+  <circle cx="3000" cy="1460" r="60" fill="#8B6BE0"/>
+  <text x="3000" y="1487" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-style="italic" font-weight="700" fill="#F5F6FA">Z</text>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="160" y1="2000" x2="3680" y2="2000" stroke="#2C3560" stroke-width="2"/>
+
+  <text x="160" y="2065" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">EUMaster4HPC Summer School 2026</text>
+  <text x="1920" y="2065" text-anchor="middle" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">Microsoft &#8226; The Cronos Group</text>
+
+  <text x="3680" y="2065" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif"
+        font-size="45" fill="#7C86A8">26</text>
+
+</svg>

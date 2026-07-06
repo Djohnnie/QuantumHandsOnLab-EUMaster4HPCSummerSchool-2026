@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Slide 21: Bloch sphere superposition states, 50/50 and 25/75, side by side (recolored copies of 02-06_bloch-state-superposition-50-50.svg and 02-10_bloch-state-superposition-25-75.svg) -->
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0B0F1E"/>
+      <stop offset="55%"  stop-color="#0F1530"/>
+      <stop offset="100%" stop-color="#151B3B"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#4FD8E8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4FD8E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#8B6BE0" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8B6BE0" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3FD0E0"/>
+      <stop offset="100%" stop-color="#8B6BE0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect x="0" y="0" width="3840" height="2160" fill="url(#bgGradient)"/>
+
+  <!-- Subtle circuit-board style grid lines (very low opacity) -->
+  <g stroke="#4FD8E8" stroke-width="1.5" opacity="0.06">
+    <line x1="0" y1="360"  x2="3840" y2="360"/>
+    <line x1="0" y1="720"  x2="3840" y2="720"/>
+    <line x1="0" y1="1080" x2="3840" y2="1080"/>
+    <line x1="0" y1="1440" x2="3840" y2="1440"/>
+    <line x1="0" y1="1800" x2="3840" y2="1800"/>
+    <line x1="640"  y1="0" x2="640"  y2="2160"/>
+    <line x1="1280" y1="0" x2="1280" y2="2160"/>
+    <line x1="1920" y1="0" x2="1920" y2="2160"/>
+    <line x1="2560" y1="0" x2="2560" y2="2160"/>
+    <line x1="3200" y1="0" x2="3200" y2="2160"/>
+  </g>
+
+  <!-- Decorative glows -->
+  <circle cx="3450" cy="260" r="520" fill="url(#glowCyan)"/>
+  <circle cx="420" cy="1950" r="560" fill="url(#glowPurple)"/>
+
+  <!-- ============ HEADER / EYEBROW ============ -->
+  <text x="160" y="200" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="63"
+        letter-spacing="9" fill="#4FD8E8" font-weight="600">BLOCH SPHERE SUPERPOSITIONS</text>
+
+  <!-- Accent rule -->
+  <rect x="160" y="250" width="330" height="12" rx="6" fill="url(#accentGradient)"/>
+
+  <!-- ============ BLOCH STATE SUPERPOSITION 50/50, recolored copy ============ -->
+  <svg x="345" y="540" width="1500" height="1200" viewBox="0 0 1500 1200" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#4FD8E8">
+      <circle cx="750" cy="600" r="480" style="fill:#182449;stroke:#4FD8E8;stroke-width:2.08px;"/>
+      <path d="M750,1080l0,-960" style="fill:none;stroke:#4FD8E8;stroke-width:4.17px;"/>
+      <path d="M270,600l960,0" style="fill:none;stroke:#4FD8E8;stroke-width:4.17px;"/>
+      <text x="1175.37px" y="660px" style="font-family:'Segoe UI', 'Arial', sans-serif;font-size:50px;">x</text>
+      <text x="764.023px" y="168px" style="font-family:'Segoe UI', 'Arial', sans-serif;font-size:50px;">z</text>
+      <g>
+        <g transform="matrix(0.999914,0,0,1,0.061626,0)"><text x="720.316px" y="80.378px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0628734,0)"><text x="734.896px" y="80.378px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">0</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0650474,0)"><g transform="matrix(45.8268,0,0,45.8268,760.307,78.7117)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+      </g>
+      <g>
+        <g transform="matrix(0.999914,0,0,1,0.061626,0)"><text x="720.316px" y="1143.8px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0628734,0)"><text x="734.896px" y="1143.8px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">1</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0650474,0)"><g transform="matrix(45.8268,0,0,45.8268,760.307,1142.13)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+      </g>
+      <g>
+        <g transform="matrix(0.999914,0,0,1,0.107798,0)"><text x="1260px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.109046,0)"><text x="1274.58px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">0</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.11122,0)"><g transform="matrix(45.8268,0,0,45.8268,1299.99,577.204)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.113465,0)"><text x="1326.24px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">+</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.117278,0)"><text x="1370.81px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.118526,0)"><text x="1385.39px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">1</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.1207,0)"><g transform="matrix(45.8268,0,0,45.8268,1410.8,577.204)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.112574,0)"><g transform="matrix(45.8268,0,0,45.8268,1315.82,653.026)"><path d="M0.177,-0.466l0.173,0.379l0.241,-0.834l0.124,0l0,0.065l-0.088,0l-0.263,0.898l-0.047,-0l-0.202,-0.435l-0.083,0.037l-0.015,-0.037l0.16,-0.073Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.11514,0)"><text x="1345.81px" y="651.36px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">2</text></g>
+        <rect x="1345.81" y="610.949" width="25.411" height="2.916"/>
+        <rect x="1260" y="599.284" width="167.462" height="2.916"/>
+      </g>
+      <g>
+        <g transform="matrix(0.999914,0,0,1,0.00620596,0)"><text x="72.538px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.00745334,0)"><text x="87.118px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">0</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.00962734,0)"><g transform="matrix(45.8268,0,0,45.8268,112.529,577.204)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.0118726,0)"><text x="138.773px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">&#8722;</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.015686,0)"><text x="183.346px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0169334,0)"><text x="197.926px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">1</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0191074,0)"><g transform="matrix(45.8268,0,0,45.8268,223.337,577.204)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.0109816,0)"><g transform="matrix(45.8268,0,0,45.8268,128.359,653.026)"><path d="M0.177,-0.466l0.173,0.379l0.241,-0.834l0.124,0l0,0.065l-0.088,0l-0.263,0.898l-0.047,-0l-0.202,-0.435l-0.083,0.037l-0.015,-0.037l0.16,-0.073Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.0135477,0)"><text x="158.352px" y="651.36px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">2</text></g>
+        <rect x="158.352" y="610.949" width="25.411" height="2.916"/>
+        <rect x="72.538" y="599.284" width="167.462" height="2.916"/>
+      </g>
+    </g>
+    <g fill="#8B6BE0">
+      <path d="M840,600c0,-49.672 -40.328,-90 -90,-90" style="fill:none;stroke:#8B6BE0;stroke-width:2.08px;"/>
+      <g>
+        <g transform="matrix(0.999821,0,0,1,0.141664,0)"><text x="792.428px" y="479.18px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">&#120579;</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.148811,0)"><text x="832.404px" y="479.18px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">=</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.157223,0)"><text x="879.458px" y="444.611px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">&#960;</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.157372,0)"><text x="880.291px" y="510px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">2</text></g>
+        <rect x="879.458" y="465.019" width="27.483" height="2.915"/>
+        <g transform="matrix(0.416414,0,0,0.416489,924.431,479.18)">
+          <text x="0px" y="0px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:110px;">r</text>
+          <text x="44.073px" y="0px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:110px;">a</text>
+          <text x="98.104px" y="0px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:110px;">d</text>
+        </g>
+      </g>
+      <path d="M1155,562.5l75,37.5l-75,37.5l37.5,-37.5l-37.5,-37.5Z"/>
+      <path d="M750,600l442.5,-0" style="fill:none;stroke:#8B6BE0;stroke-width:12.5px;"/>
+    </g>
+  </svg>
+
+  <!-- ============ BLOCH STATE SUPERPOSITION 25/75, recolored copy ============ -->
+  <svg x="1995" y="540" width="1500" height="1200" viewBox="0 0 1500 1200" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#4FD8E8">
+      <circle cx="750" cy="600" r="480" style="fill:#182449;stroke:#4FD8E8;stroke-width:2.08px;"/>
+      <path d="M750,1080l0,-960" style="fill:none;stroke:#4FD8E8;stroke-width:4.17px;"/>
+      <path d="M270,600l960,0" style="fill:none;stroke:#4FD8E8;stroke-width:4.17px;"/>
+      <text x="1175.37px" y="660px" style="font-family:'Segoe UI', 'Arial', sans-serif;font-size:50px;">x</text>
+      <text x="764.023px" y="168px" style="font-family:'Segoe UI', 'Arial', sans-serif;font-size:50px;">z</text>
+      <g>
+        <g transform="matrix(0.999914,0,0,1,0.061626,0)"><text x="720.316px" y="80.378px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0628734,0)"><text x="734.896px" y="80.378px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">0</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0650474,0)"><g transform="matrix(45.8268,0,0,45.8268,760.307,78.7117)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+      </g>
+      <g>
+        <g transform="matrix(0.999914,0,0,1,0.061626,0)"><text x="720.316px" y="1143.8px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0628734,0)"><text x="734.896px" y="1143.8px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">1</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0650474,0)"><g transform="matrix(45.8268,0,0,45.8268,760.307,1142.13)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+      </g>
+      <g>
+        <g transform="matrix(0.999914,0,0,1,0.108871,0)"><text x="1272.54px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.110118,0)"><text x="1287.12px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">0</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.112292,0)"><g transform="matrix(45.8268,0,0,45.8268,1312.53,577.204)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.114538,0)"><text x="1338.77px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">+</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.118351,0)"><text x="1383.35px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.119598,0)"><text x="1397.93px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">1</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.121772,0)"><g transform="matrix(45.8268,0,0,45.8268,1423.34,577.204)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.113647,0)"><g transform="matrix(45.8268,0,0,45.8268,1328.36,653.026)"><path d="M0.177,-0.466l0.173,0.379l0.241,-0.834l0.124,0l0,0.065l-0.088,0l-0.263,0.898l-0.047,-0l-0.202,-0.435l-0.083,0.037l-0.015,-0.037l0.16,-0.073Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.116213,0)"><text x="1358.35px" y="651.36px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">2</text></g>
+        <rect x="1358.35" y="610.949" width="25.411" height="2.916"/>
+        <rect x="1272.54" y="599.284" width="167.462" height="2.916"/>
+      </g>
+      <g>
+        <g transform="matrix(0.999914,0,0,1,0.00513325,0)"><text x="60px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.00638063,0)"><text x="74.58px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">0</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.00855464,0)"><g transform="matrix(45.8268,0,0,45.8268,99.9909,577.204)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.0107999,0)"><text x="126.235px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">&#8722;</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0146133,0)"><text x="170.808px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">|</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0158607,0)"><text x="185.388px" y="578.87px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">1</text></g>
+        <g transform="matrix(0.999914,0,0,1,0.0180347,0)"><g transform="matrix(45.8268,0,0,45.8268,210.799,577.204)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.00990893,0)"><g transform="matrix(45.8268,0,0,45.8268,115.821,653.026)"><path d="M0.177,-0.466l0.173,0.379l0.241,-0.834l0.124,0l0,0.065l-0.088,0l-0.263,0.898l-0.047,-0l-0.202,-0.435l-0.083,0.037l-0.015,-0.037l0.16,-0.073Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999914,0,0,1,0.012475,0)"><text x="145.814px" y="651.36px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.827px;">2</text></g>
+        <rect x="145.814" y="610.949" width="25.411" height="2.916"/>
+        <rect x="60" y="599.284" width="167.462" height="2.916"/>
+      </g>
+    </g>
+    <g fill="#8B6BE0">
+      <path d="M1130.64,743.469l51.038,66.531l-83.847,0.912l50.126,-17.317l-17.317,-50.126Z"/>
+      <path d="M750,600c0,-0 296.335,144.159 397.956,193.595" style="fill:none;stroke:#8B6BE0;stroke-width:12.5px;"/>
+      <g>
+        <g transform="matrix(0.999821,0,0,1,0.141664,0)"><text x="792.428px" y="497.142px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">&#120579;</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.148811,0)"><text x="832.404px" y="497.142px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">=</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.157148,-5.68434e-14)"><text x="879.042px" y="462.573px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">2</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.161689,-5.68434e-14)"><text x="904.443px" y="462.573px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">&#960;</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.159605,0)"><text x="892.784px" y="527.962px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">3</text></g>
+        <rect x="879.042" y="482.981" width="52.885" height="2.915"/>
+        <g transform="matrix(0.416414,0,0,0.416489,949.833,497.142)">
+          <text x="0px" y="0px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:110px;">r</text>
+          <text x="44.073px" y="0px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:110px;">a</text>
+          <text x="98.104px" y="0px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:110px;">d</text>
+        </g>
+      </g>
+      <path d="M831,639.251c5.765,-11.865 9,-25.183 9,-39.251c-0,-49.672 -40.328,-90 -90,-90" style="fill:none;stroke:#8B6BE0;stroke-width:2.08px;"/>
+      <g>
+        <g transform="matrix(0.999821,0,0,1,0.214527,-1.13687e-13)"><text x="1200px" y="857.359px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">|</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.217132,-1.13687e-13)"><text x="1214.58px" y="857.359px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">0</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.221673,1.13687e-13)"><g transform="matrix(45.8138,0,0,45.8138,1239.98,855.693)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999821,0,0,1,0.226363,-1.13687e-13)"><text x="1266.21px" y="857.359px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">+</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.234328,-1.13687e-13)"><g transform="matrix(45.8138,0,0,45.8138,1310.77,859.442)"><path d="M0.177,-0.466l0.173,0.379l0.241,-0.834l0.124,0l0,0.065l-0.088,0l-0.263,0.898l-0.047,-0l-0.202,-0.435l-0.083,0.037l-0.015,-0.037l0.16,-0.073Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999821,0,0,1,0.239688,-1.13687e-13)"><text x="1340.75px" y="857.359px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">3</text></g>
+        <rect x="1340.75" y="817.376" width="35.395" height="2.915"/>
+        <g transform="matrix(0.999821,0,0,1,0.246016,-1.13687e-13)"><text x="1376.14px" y="857.359px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">|</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.248622,-1.13687e-13)"><text x="1390.72px" y="857.359px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">1</text></g>
+        <g transform="matrix(0.999821,0,0,1,0.253163,1.13687e-13)"><g transform="matrix(45.8138,0,0,45.8138,1416.12,855.693)"><path d="M0.104,-0.701l0.195,0.438l-0,0.036l-0.195,0.439l-0.052,-0.018l0.156,-0.439l-0.156,-0.439l0.052,-0.017Z" style="fill-rule:nonzero;"/></g></g>
+        <g transform="matrix(0.999821,0,0,1,0.233063,0)"><text x="1303.69px" y="922.748px" style="font-family:'Cambria Math', 'CambriaMath', serif;font-size:45.814px;">2</text></g>
+        <rect x="1200" y="877.767" width="232.776" height="2.915"/>
+      </g>
+    </g>
+  </svg>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="160" y1="2000" x2="3680" y2="2000" stroke="#2C3560" stroke-width="2"/>
+
+  <text x="160" y="2065" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">EUMaster4HPC Summer School 2026</text>
+  <text x="1920" y="2065" text-anchor="middle" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">Microsoft &#8226; The Cronos Group</text>
+
+  <text x="3680" y="2065" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif"
+        font-size="45" fill="#7C86A8">21</text>
+
+</svg>

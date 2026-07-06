@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Slide 11: Electron spin diagram (recolored copy of 01-12_electron-spin.svg) -->
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0B0F1E"/>
+      <stop offset="55%"  stop-color="#0F1530"/>
+      <stop offset="100%" stop-color="#151B3B"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#4FD8E8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4FD8E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#8B6BE0" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8B6BE0" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3FD0E0"/>
+      <stop offset="100%" stop-color="#8B6BE0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect x="0" y="0" width="3840" height="2160" fill="url(#bgGradient)"/>
+
+  <!-- Subtle circuit-board style grid lines (very low opacity) -->
+  <g stroke="#4FD8E8" stroke-width="1.5" opacity="0.06">
+    <line x1="0" y1="360"  x2="3840" y2="360"/>
+    <line x1="0" y1="720"  x2="3840" y2="720"/>
+    <line x1="0" y1="1080" x2="3840" y2="1080"/>
+    <line x1="0" y1="1440" x2="3840" y2="1440"/>
+    <line x1="0" y1="1800" x2="3840" y2="1800"/>
+    <line x1="640"  y1="0" x2="640"  y2="2160"/>
+    <line x1="1280" y1="0" x2="1280" y2="2160"/>
+    <line x1="1920" y1="0" x2="1920" y2="2160"/>
+    <line x1="2560" y1="0" x2="2560" y2="2160"/>
+    <line x1="3200" y1="0" x2="3200" y2="2160"/>
+  </g>
+
+  <!-- Decorative glows -->
+  <circle cx="3450" cy="260" r="520" fill="url(#glowCyan)"/>
+  <circle cx="420" cy="1950" r="560" fill="url(#glowPurple)"/>
+
+  <!-- ============ HEADER / EYEBROW ============ -->
+  <text x="160" y="200" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="63"
+        letter-spacing="9" fill="#4FD8E8" font-weight="600">ELECTRON SPIN</text>
+
+  <!-- Accent rule -->
+  <rect x="160" y="250" width="330" height="12" rx="6" fill="url(#accentGradient)"/>
+
+  <!-- ============ ELECTRON SPIN DIAGRAM (centered, recolored copy) ============ -->
+  <svg x="870" y="450" width="2100" height="1400" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#4FD8E8">
+      <g transform="matrix(1.03448,0,0,1,197.241,-1.42109e-14)">
+        <path d="M22,100C22,97.24 34.994,95 51,95C67.006,95 80,97.24 80,100" style="fill:none;stroke:#4FD8E8;stroke-width:1.37px;stroke-dasharray:1.37,1.37;"/>
+      </g>
+      <g transform="matrix(1.03448,0,0,1,97.2414,0)">
+        <path d="M22,100C22,97.24 34.994,95 51,95C67.006,95 80,97.24 80,100" style="fill:none;stroke:#4FD8E8;stroke-width:1.37px;"/>
+      </g>
+      <g transform="matrix(1.03448,0,0,1,-2.75862,0)">
+        <path d="M22,100C22,97.24 34.994,95 51,95C67.006,95 80,97.24 80,100" style="fill:none;stroke:#4FD8E8;stroke-width:1.37px;"/>
+      </g>
+      <path d="M260.208,139.583L255,150L249.792,139.583C252.396,142.188 257.604,142.188 260.208,139.583Z"/>
+      <path d="M255,50L255,141.667" style="fill:none;stroke:#4FD8E8;stroke-width:1.39px;stroke-dasharray:1.39,1.39;"/>
+      <path d="M239.792,60.417L245,50L250.208,60.417C247.604,57.813 242.396,57.813 239.792,60.417Z"/>
+      <path d="M245,150L245,58.333" style="fill:none;stroke:#4FD8E8;stroke-width:1.39px;stroke-dasharray:1.39,1.39;"/>
+      <path d="M155.208,139.583L150,150L144.792,139.583C147.396,142.188 152.604,142.188 155.208,139.583Z"/>
+      <path d="M150,50L150,141.667" style="fill:none;stroke:#4FD8E8;stroke-width:1.39px;"/>
+      <path d="M44.792,60.417L50,50L55.208,60.417C52.604,57.813 47.396,57.813 44.792,60.417Z"/>
+      <path d="M50,150L50,58.333" style="fill:none;stroke:#4FD8E8;stroke-width:1.39px;"/>
+      <g transform="matrix(1,0,0,1,-10,-10)">
+        <circle cx="60" cy="110" r="20" style="fill:#182449;stroke:#4FD8E8;stroke-width:1.39px;"/>
+      </g>
+      <g transform="matrix(1,0,0,1,90,-10)">
+        <circle cx="60" cy="110" r="20" style="fill:#182449;stroke:#4FD8E8;stroke-width:1.39px;"/>
+      </g>
+      <g transform="matrix(1,0,0,1,190,-10)">
+        <circle cx="60" cy="110" r="20" style="fill:#182449;stroke:#4FD8E8;stroke-width:1.39px;"/>
+      </g>
+      <g transform="matrix(1,0,0,1,8.26299,29.2339)">
+        <text x="83.626px" y="80.552px" style="fill:#F5F6FA;font-family:'ArialMT', 'Arial', sans-serif;font-size:27.778px;">+</text>
+      </g>
+      <g transform="matrix(1,0,0,1,-1.14729,20.9159)">
+        <text x="193.036px" y="89.084px" style="fill:#F5F6FA;font-family:'ArialMT', 'Arial', sans-serif;font-size:27.778px;">=</text>
+      </g>
+      <g transform="matrix(1.03448,0,0,1,-2.75862,0)">
+        <g transform="matrix(0.966667,-0,-0,1,2.66667,-0)">
+          <path d="M33.529,107.352L40,104.715L34.008,101.12C35.446,102.798 35.206,105.913 33.529,107.352Z"/>
+          <path d="M35.015,104.332C26.042,103.467 20,101.85 20,100" style="fill:none;stroke:#4FD8E8;stroke-width:1.39px;"/>
+        </g>
+      </g>
+      <g transform="matrix(1.03448,0,0,1,-2.75862,0)">
+        <path d="M80,100C80,102.175 71.926,104.028 60.667,104.715" style="fill:none;stroke:#4FD8E8;stroke-width:1.37px;"/>
+      </g>
+      <g transform="matrix(1.03448,0,0,1,97.2414,0)">
+        <path d="M41.333,104.715C30.074,104.028 22,102.175 22,100" style="fill:none;stroke:#4FD8E8;stroke-width:1.37px;"/>
+      </g>
+      <g transform="matrix(1.03448,0,0,1,97.2414,0)">
+        <g transform="matrix(0.966667,-0,-0,1,-94,0)">
+          <path d="M166.471,107.352L160,104.715L165.992,101.12C164.554,102.798 164.794,105.913 166.471,107.352Z"/>
+          <path d="M180,100C180,101.85 173.958,103.467 164.985,104.332" style="fill:none;stroke:#4FD8E8;stroke-width:1.39px;"/>
+        </g>
+      </g>
+      <g transform="matrix(1.03448,0,0,1,197.241,-1.42109e-14)">
+        <g transform="matrix(0.966667,-0,-0,1,-190.667,1.42109e-14)">
+          <path d="M233.529,107.352L240,104.715L234.008,101.12C235.446,102.798 235.206,105.913 233.529,107.352Z"/>
+          <path d="M235.015,104.332C226.042,103.467 220,101.85 220,100" style="fill:none;stroke:#4FD8E8;stroke-width:1.39px;stroke-dasharray:1.39,1.39;"/>
+        </g>
+      </g>
+      <g transform="matrix(1.03448,0,0,1,197.241,-1.42109e-14)">
+        <g transform="matrix(0.966667,-0,-0,1,-190.667,1.42109e-14)">
+          <path d="M266.471,107.352L260,104.715L265.992,101.12C264.554,102.798 264.794,105.913 266.471,107.352Z"/>
+          <path d="M280,100C280,101.85 273.958,103.467 264.985,104.332" style="fill:none;stroke:#4FD8E8;stroke-width:1.39px;stroke-dasharray:1.39,1.39;"/>
+        </g>
+      </g>
+    </g>
+  </svg>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="160" y1="2000" x2="3680" y2="2000" stroke="#2C3560" stroke-width="2"/>
+
+  <text x="160" y="2065" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">EUMaster4HPC Summer School 2026</text>
+  <text x="1920" y="2065" text-anchor="middle" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">Microsoft &#8226; The Cronos Group</text>
+
+  <text x="3680" y="2065" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif"
+        font-size="45" fill="#7C86A8">11</text>
+
+</svg>

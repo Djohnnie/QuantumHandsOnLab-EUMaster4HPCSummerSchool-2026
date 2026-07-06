@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Slide 46: CNOT-Gate applied to |00> and |01> (based on Quantum-Summer-Lab-2025 slide 228.jpg) -->
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0B0F1E"/>
+      <stop offset="55%"  stop-color="#0F1530"/>
+      <stop offset="100%" stop-color="#151B3B"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#4FD8E8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4FD8E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#8B6BE0" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8B6BE0" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3FD0E0"/>
+      <stop offset="100%" stop-color="#8B6BE0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect x="0" y="0" width="3840" height="2160" fill="url(#bgGradient)"/>
+
+  <!-- Subtle circuit-board style grid lines (very low opacity) -->
+  <g stroke="#4FD8E8" stroke-width="1.5" opacity="0.06">
+    <line x1="0" y1="360"  x2="3840" y2="360"/>
+    <line x1="0" y1="720"  x2="3840" y2="720"/>
+    <line x1="0" y1="1080" x2="3840" y2="1080"/>
+    <line x1="0" y1="1440" x2="3840" y2="1440"/>
+    <line x1="0" y1="1800" x2="3840" y2="1800"/>
+    <line x1="640"  y1="0" x2="640"  y2="2160"/>
+    <line x1="1280" y1="0" x2="1280" y2="2160"/>
+    <line x1="1920" y1="0" x2="1920" y2="2160"/>
+    <line x1="2560" y1="0" x2="2560" y2="2160"/>
+    <line x1="3200" y1="0" x2="3200" y2="2160"/>
+  </g>
+
+  <!-- Decorative glows -->
+  <circle cx="3450" cy="260" r="520" fill="url(#glowCyan)"/>
+  <circle cx="420" cy="1950" r="560" fill="url(#glowPurple)"/>
+
+  <!-- ============ HEADER / EYEBROW ============ -->
+  <text x="160" y="200" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="63"
+        letter-spacing="9" fill="#4FD8E8" font-weight="600">CNOT-GATE</text>
+
+  <!-- Accent rule -->
+  <rect x="160" y="250" width="330" height="12" rx="6" fill="url(#accentGradient)"/>
+
+  <g transform="translate(217.50,-623.00) scale(1.5)">
+
+
+  <g transform="translate(160,950)">
+    <text x="0" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#F5F6FA">|00&#10217;<tspan fill="#8B6BE0" dx="16">&#8658;</tspan></text>
+  <g transform="translate(430,0)">
+    <path d="M -136.0,-146.0 Q -165.75,8 -136.0,146.0" fill="none" stroke="url(#accentGradient)" stroke-width="6.8" stroke-linecap="round"/>
+    <path d="M 136.0,-146.0 Q 165.75,8 136.0,146.0" fill="none" stroke="url(#accentGradient)" stroke-width="6.8" stroke-linecap="round"/>
+    <text x="-81.6" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="-27.2" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="27.2" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="81.6" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-81.6" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-27.2" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="27.2" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="81.6" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-81.6" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-27.2" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="27.2" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="81.6" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="-81.6" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-27.2" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="27.2" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="81.6" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="161.5" y="161.5" font-family="Georgia, 'Times New Roman', serif" font-size="23.8" font-style="italic" fill="#8B6BE0">CNOT</text>
+  </g>
+  <g transform="translate(800,0)">
+    <path d="M -23.0,-48.3 Q -34.5,4 -23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <path d="M 23.0,-48.3 Q 34.5,4 23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <text x="0" y="-6.9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">1</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">0</text>
+  </g>
+    <text x="890" y="16" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#8B6BE0">&#8855;</text>
+  <g transform="translate(980,0)">
+    <path d="M -23.0,-48.3 Q -34.5,4 -23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <path d="M 23.0,-48.3 Q 34.5,4 23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <text x="0" y="-6.9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">1</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">0</text>
+  </g>
+    <text x="1090" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#F5F6FA">=</text>
+  <g transform="translate(1260,0)">
+    <path d="M -38.25,-146.0 Q -51.0,8 -38.25,146.0" fill="none" stroke="url(#accentGradient)" stroke-width="6.0" stroke-linecap="round"/>
+    <path d="M 38.25,-146.0 Q 51.0,8 38.25,146.0" fill="none" stroke="url(#accentGradient)" stroke-width="6.0" stroke-linecap="round"/>
+    <text x="0" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="0" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="0" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+  </g>
+    <text x="1410" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#F5F6FA">=</text>
+  <g transform="translate(1540,0)">
+    <path d="M -23.0,-48.3 Q -34.5,4 -23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <path d="M 23.0,-48.3 Q 34.5,4 23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <text x="0" y="-6.9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">1</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">0</text>
+  </g>
+    <text x="1630" y="16" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#8B6BE0">&#8855;</text>
+  <g transform="translate(1720,0)">
+    <path d="M -23.0,-48.3 Q -34.5,4 -23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <path d="M 23.0,-48.3 Q 34.5,4 23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <text x="0" y="-6.9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">1</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">0</text>
+  </g>
+    <text x="1800" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#8B6BE0">= |00&#10217;</text>
+  </g>
+  <g transform="translate(160,1400)">
+    <text x="0" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#F5F6FA">|01&#10217;<tspan fill="#8B6BE0" dx="16">&#8658;</tspan></text>
+  <g transform="translate(430,0)">
+    <path d="M -136.0,-146.0 Q -165.75,8 -136.0,146.0" fill="none" stroke="url(#accentGradient)" stroke-width="6.8" stroke-linecap="round"/>
+    <path d="M 136.0,-146.0 Q 165.75,8 136.0,146.0" fill="none" stroke="url(#accentGradient)" stroke-width="6.8" stroke-linecap="round"/>
+    <text x="-81.6" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="-27.2" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="27.2" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="81.6" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-81.6" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-27.2" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="27.2" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="81.6" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-81.6" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-27.2" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="27.2" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="81.6" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="-81.6" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="-27.2" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="27.2" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="81.6" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="161.5" y="161.5" font-family="Georgia, 'Times New Roman', serif" font-size="23.8" font-style="italic" fill="#8B6BE0">CNOT</text>
+  </g>
+  <g transform="translate(800,0)">
+    <path d="M -23.0,-48.3 Q -34.5,4 -23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <path d="M 23.0,-48.3 Q 34.5,4 23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <text x="0" y="-6.9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">1</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">0</text>
+  </g>
+    <text x="890" y="16" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#8B6BE0">&#8855;</text>
+  <g transform="translate(980,0)">
+    <path d="M -23.0,-48.3 Q -34.5,4 -23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <path d="M 23.0,-48.3 Q 34.5,4 23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <text x="0" y="-6.9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">0</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">1</text>
+  </g>
+    <text x="1090" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#F5F6FA">=</text>
+  <g transform="translate(1260,0)">
+    <path d="M -38.25,-146.0 Q -51.0,8 -38.25,146.0" fill="none" stroke="url(#accentGradient)" stroke-width="6.0" stroke-linecap="round"/>
+    <path d="M 38.25,-146.0 Q 51.0,8 38.25,146.0" fill="none" stroke="url(#accentGradient)" stroke-width="6.0" stroke-linecap="round"/>
+    <text x="0" y="-69.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="0" y="-15.3" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">1</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+    <text x="0" y="93.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.0" fill="#F5F6FA">0</text>
+  </g>
+    <text x="1410" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#F5F6FA">=</text>
+  <g transform="translate(1540,0)">
+    <path d="M -23.0,-48.3 Q -34.5,4 -23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <path d="M 23.0,-48.3 Q 34.5,4 23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <text x="0" y="-6.9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">1</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">0</text>
+  </g>
+    <text x="1630" y="16" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#8B6BE0">&#8855;</text>
+  <g transform="translate(1720,0)">
+    <path d="M -23.0,-48.3 Q -34.5,4 -23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <path d="M 23.0,-48.3 Q 34.5,4 23.0,48.3" fill="none" stroke="url(#accentGradient)" stroke-width="5.8" stroke-linecap="round"/>
+    <text x="0" y="-6.9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">0</text>
+    <text x="0" y="39.1" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34.5" fill="#F5F6FA">1</text>
+  </g>
+    <text x="1800" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#8B6BE0">= |01&#10217;</text>
+  </g>
+
+  
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="160" y1="2000" x2="3680" y2="2000" stroke="#2C3560" stroke-width="2"/>
+
+  <text x="160" y="2065" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">EUMaster4HPC Summer School 2026</text>
+  <text x="1920" y="2065" text-anchor="middle" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">Microsoft &#8226; The Cronos Group</text>
+
+  <text x="3680" y="2065" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif"
+        font-size="45" fill="#7C86A8">46</text>
+
+</svg>

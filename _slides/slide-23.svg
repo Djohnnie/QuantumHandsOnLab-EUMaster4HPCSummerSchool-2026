@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Slide 23: Logical vs Physical Qubit (recreated in deck style, inspired by 01-17_logical-vs-physical-qubit.svg) -->
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0B0F1E"/>
+      <stop offset="55%"  stop-color="#0F1530"/>
+      <stop offset="100%" stop-color="#151B3B"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#4FD8E8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4FD8E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#8B6BE0" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8B6BE0" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3FD0E0"/>
+      <stop offset="100%" stop-color="#8B6BE0"/>
+    </linearGradient>
+
+    <filter id="fuzzyVector" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4.5"/>
+    </filter>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect x="0" y="0" width="3840" height="2160" fill="url(#bgGradient)"/>
+
+  <!-- Subtle circuit-board style grid lines (very low opacity) -->
+  <g stroke="#4FD8E8" stroke-width="1.5" opacity="0.06">
+    <line x1="0" y1="360"  x2="3840" y2="360"/>
+    <line x1="0" y1="720"  x2="3840" y2="720"/>
+    <line x1="0" y1="1080" x2="3840" y2="1080"/>
+    <line x1="0" y1="1440" x2="3840" y2="1440"/>
+    <line x1="0" y1="1800" x2="3840" y2="1800"/>
+    <line x1="640"  y1="0" x2="640"  y2="2160"/>
+    <line x1="1280" y1="0" x2="1280" y2="2160"/>
+    <line x1="1920" y1="0" x2="1920" y2="2160"/>
+    <line x1="2560" y1="0" x2="2560" y2="2160"/>
+    <line x1="3200" y1="0" x2="3200" y2="2160"/>
+  </g>
+
+  <!-- Decorative glows -->
+  <circle cx="3450" cy="260" r="520" fill="url(#glowCyan)"/>
+  <circle cx="420" cy="1950" r="560" fill="url(#glowPurple)"/>
+
+  <!-- ============ HEADER / EYEBROW ============ -->
+  <text x="160" y="200" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="63"
+        letter-spacing="9" fill="#4FD8E8" font-weight="600">LOGICAL VS PHYSICAL QUBITS</text>
+
+  <!-- Accent rule -->
+  <rect x="160" y="250" width="330" height="12" rx="6" fill="url(#accentGradient)"/>
+
+  <!-- ============ FIVE NOISY PHYSICAL QUBITS (stacked, faded vectors) ============ -->
+  <g fill="none" stroke="#4FD8E8">
+    <circle cx="1535" cy="630"  r="110" style="fill:#182449;stroke:#4FD8E8;stroke-width:3px;"/>
+    <circle cx="1535" cy="880"  r="110" style="fill:#182449;stroke:#4FD8E8;stroke-width:3px;"/>
+    <circle cx="1535" cy="1130" r="110" style="fill:#182449;stroke:#4FD8E8;stroke-width:3px;"/>
+    <circle cx="1535" cy="1380" r="110" style="fill:#182449;stroke:#4FD8E8;stroke-width:3px;"/>
+    <circle cx="1535" cy="1630" r="110" style="fill:#182449;stroke:#4FD8E8;stroke-width:3px;"/>
+  </g>
+  <g stroke="#4FD8E8" stroke-linecap="round" filter="url(#fuzzyVector)">
+    <!-- circle 1 (cy=630) -->
+    <line x1="1535" y1="630" x2="1579.6" y2="546.1" stroke-width="4" opacity="0.35"/>
+    <line x1="1535" y1="630" x2="1596.1" y2="557.2" stroke-width="7" opacity="0.65"/>
+    <line x1="1535" y1="630" x2="1609.9" y2="571.5" stroke-width="4" opacity="0.35"/>
+    <!-- circle 2 (cy=880) -->
+    <line x1="1535" y1="880" x2="1593.5" y2="805.1" stroke-width="4" opacity="0.35"/>
+    <line x1="1535" y1="880" x2="1607.8" y2="818.9" stroke-width="7" opacity="0.65"/>
+    <line x1="1535" y1="880" x2="1618.9" y2="835.4" stroke-width="4" opacity="0.35"/>
+    <!-- circle 3 (cy=1130) -->
+    <line x1="1535" y1="1130" x2="1586.7" y2="1050.3" stroke-width="4" opacity="0.35"/>
+    <line x1="1535" y1="1130" x2="1602.2" y2="1062.8" stroke-width="7" opacity="0.65"/>
+    <line x1="1535" y1="1130" x2="1614.7" y2="1078.3" stroke-width="4" opacity="0.35"/>
+    <!-- circle 4 (cy=1380) -->
+    <line x1="1535" y1="1380" x2="1582.5" y2="1297.7" stroke-width="4" opacity="0.35"/>
+    <line x1="1535" y1="1380" x2="1598.6" y2="1309.4" stroke-width="7" opacity="0.65"/>
+    <line x1="1535" y1="1380" x2="1611.9" y2="1324.2" stroke-width="4" opacity="0.35"/>
+    <!-- circle 5 (cy=1630) -->
+    <line x1="1535" y1="1630" x2="1590.8" y2="1553.1" stroke-width="4" opacity="0.35"/>
+    <line x1="1535" y1="1630" x2="1605.6" y2="1566.4" stroke-width="7" opacity="0.65"/>
+    <line x1="1535" y1="1630" x2="1617.3" y2="1582.5" stroke-width="4" opacity="0.35"/>
+  </g>
+
+  <!-- Brace grouping the physical qubits -->
+  <path d="M 1645,520 Q 1795,520 1795,825 Q 1795,1130 1845,1130 Q 1795,1130 1795,1435 Q 1795,1740 1645,1740"
+        fill="none" stroke="url(#accentGradient)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- ============ ONE LOGICAL QUBIT (single, clear vector) ============ -->
+  <circle cx="2195" cy="1130" r="220" style="fill:#182449;stroke:#4FD8E8;stroke-width:6px;"/>
+  <line x1="2195" y1="1130" x2="2272.79" y2="1052.21" stroke="#8B6BE0" stroke-width="10"/>
+  <path d="M2301.07,1023.93L2285.52,1064.94L2260.06,1039.48Z" fill="#8B6BE0"/>
+
+  <!-- Captions -->
+  <text x="1535" y="1860" text-anchor="middle" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="70"
+        font-weight="600" fill="url(#accentGradient)">Physical Qubits</text>
+  <text x="2195" y="1860" text-anchor="middle" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="70"
+        font-weight="600" fill="url(#accentGradient)">Logical Qubit</text>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="160" y1="2000" x2="3680" y2="2000" stroke="#2C3560" stroke-width="2"/>
+
+  <text x="160" y="2065" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">EUMaster4HPC Summer School 2026</text>
+  <text x="1920" y="2065" text-anchor="middle" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">Microsoft &#8226; The Cronos Group</text>
+
+  <text x="3680" y="2065" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif"
+        font-size="45" fill="#7C86A8">23</text>
+
+</svg>

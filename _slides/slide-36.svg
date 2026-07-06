@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Slide 36: Quantum State - equal superposition 1/sqrt(2) (based on Quantum-Summer-Lab-2025 slide 212.jpg) -->
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0B0F1E"/>
+      <stop offset="55%"  stop-color="#0F1530"/>
+      <stop offset="100%" stop-color="#151B3B"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#4FD8E8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4FD8E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#8B6BE0" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8B6BE0" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3FD0E0"/>
+      <stop offset="100%" stop-color="#8B6BE0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect x="0" y="0" width="3840" height="2160" fill="url(#bgGradient)"/>
+
+  <!-- Subtle circuit-board style grid lines (very low opacity) -->
+  <g stroke="#4FD8E8" stroke-width="1.5" opacity="0.06">
+    <line x1="0" y1="360"  x2="3840" y2="360"/>
+    <line x1="0" y1="720"  x2="3840" y2="720"/>
+    <line x1="0" y1="1080" x2="3840" y2="1080"/>
+    <line x1="0" y1="1440" x2="3840" y2="1440"/>
+    <line x1="0" y1="1800" x2="3840" y2="1800"/>
+    <line x1="640"  y1="0" x2="640"  y2="2160"/>
+    <line x1="1280" y1="0" x2="1280" y2="2160"/>
+    <line x1="1920" y1="0" x2="1920" y2="2160"/>
+    <line x1="2560" y1="0" x2="2560" y2="2160"/>
+    <line x1="3200" y1="0" x2="3200" y2="2160"/>
+  </g>
+
+  <!-- Decorative glows -->
+  <circle cx="3450" cy="260" r="520" fill="url(#glowCyan)"/>
+  <circle cx="420" cy="1950" r="560" fill="url(#glowPurple)"/>
+
+  <!-- ============ HEADER / EYEBROW ============ -->
+  <text x="160" y="200" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="63"
+        letter-spacing="9" fill="#4FD8E8" font-weight="600">QUANTUM STATE</text>
+
+  <!-- Accent rule -->
+  <rect x="160" y="250" width="330" height="12" rx="6" fill="url(#accentGradient)"/>
+
+  <g transform="translate(-467.78,-562.75) scale(1.55)">
+
+
+  <!-- ============ CONTENT: equal superposition ============ -->
+  <g transform="translate(620,1080)">
+    <!-- Big column vector: (1/sqrt2 ; 1/sqrt2) -->
+    <path d="M -100,-210 Q -150,13 -100,235" fill="none" stroke="url(#accentGradient)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 100,-210 Q 150,13 100,235" fill="none" stroke="url(#accentGradient)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- top fraction: 1/sqrt2 -->
+    <text x="0" y="-130" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="80" fill="#F5F6FA">1</text>
+    <line x1="-45" y1="-100" x2="45" y2="-100" stroke="#F5F6FA" stroke-width="6"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="70" fill="#F5F6FA">&#8730;2</text>
+
+    <!-- bottom fraction: 1/sqrt2 -->
+    <text x="0" y="90" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="80" fill="#F5F6FA">1</text>
+    <line x1="-45" y1="120" x2="45" y2="120" stroke="#F5F6FA" stroke-width="6"/>
+    <text x="0" y="195" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="70" fill="#F5F6FA">&#8730;2</text>
+
+    <text x="230" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="140" fill="#F5F6FA">=</text>
+
+    <!-- Inline fractions instead of slash notation -->
+    <text x="445.32" y="-2" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">1</text>
+    <line x1="408.8" y1="8" x2="481.85" y2="8" stroke="#F5F6FA" stroke-width="4"/>
+    <text x="445.32" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#F5F6FA">&#8730;2</text>
+    <text x="490.65" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#F5F6FA"> |0&#10217; + </text>
+
+    <text x="724.42" y="-2" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">1</text>
+    <line x1="687.9" y1="8" x2="760.94" y2="8" stroke="#F5F6FA" stroke-width="4"/>
+    <text x="724.42" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#F5F6FA">&#8730;2</text>
+    <text x="769.74" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#F5F6FA"> |1&#10217;&#160;&#160;where |</text>
+
+    <text x="1216.15" y="-2" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">1</text>
+    <line x1="1179.63" y1="8" x2="1252.67" y2="8" stroke="#F5F6FA" stroke-width="4"/>
+    <text x="1216.15" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#F5F6FA">&#8730;2</text>
+    <text x="1261.47" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#F5F6FA">|</text>
+    <text x="1290.72" y="-2" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#F5F6FA">2</text>
+    <text x="1327.53" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#F5F6FA"> + |</text>
+
+    <text x="1489.90" y="-2" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">1</text>
+    <line x1="1453.37" y1="8" x2="1526.42" y2="8" stroke="#F5F6FA" stroke-width="4"/>
+    <text x="1489.90" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#F5F6FA">&#8730;2</text>
+    <text x="1535.22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#F5F6FA">|</text>
+    <text x="1564.47" y="-2" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#F5F6FA">2</text>
+    <text x="1601.28" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#F5F6FA"> = </text>
+
+    <text x="1702.87" y="-2" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">1</text>
+    <line x1="1679.05" y1="8" x2="1726.68" y2="8" stroke="#F5F6FA" stroke-width="4"/>
+    <text x="1702.87" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#F5F6FA">2</text>
+    <text x="1735.48" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#F5F6FA"> + </text>
+
+    <text x="1837.07" y="-2" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">1</text>
+    <line x1="1813.26" y1="8" x2="1860.88" y2="8" stroke="#F5F6FA" stroke-width="4"/>
+    <text x="1837.07" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#F5F6FA">2</text>
+    <text x="1869.68" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#F5F6FA"> = 1</text>
+  </g>
+
+  
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="160" y1="2000" x2="3680" y2="2000" stroke="#2C3560" stroke-width="2"/>
+
+  <text x="160" y="2065" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">EUMaster4HPC Summer School 2026</text>
+  <text x="1920" y="2065" text-anchor="middle" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">Microsoft &#8226; The Cronos Group</text>
+
+  <text x="3680" y="2065" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif"
+        font-size="45" fill="#7C86A8">36</text>
+
+</svg>

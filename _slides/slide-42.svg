@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Slide 42: Y-Gate applied to |0> and |1> (based on Quantum-Summer-Lab-2025 slide 224.jpg) -->
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0B0F1E"/>
+      <stop offset="55%"  stop-color="#0F1530"/>
+      <stop offset="100%" stop-color="#151B3B"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#4FD8E8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4FD8E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#8B6BE0" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8B6BE0" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3FD0E0"/>
+      <stop offset="100%" stop-color="#8B6BE0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect x="0" y="0" width="3840" height="2160" fill="url(#bgGradient)"/>
+
+  <!-- Subtle circuit-board style grid lines (very low opacity) -->
+  <g stroke="#4FD8E8" stroke-width="1.5" opacity="0.06">
+    <line x1="0" y1="360"  x2="3840" y2="360"/>
+    <line x1="0" y1="720"  x2="3840" y2="720"/>
+    <line x1="0" y1="1080" x2="3840" y2="1080"/>
+    <line x1="0" y1="1440" x2="3840" y2="1440"/>
+    <line x1="0" y1="1800" x2="3840" y2="1800"/>
+    <line x1="640"  y1="0" x2="640"  y2="2160"/>
+    <line x1="1280" y1="0" x2="1280" y2="2160"/>
+    <line x1="1920" y1="0" x2="1920" y2="2160"/>
+    <line x1="2560" y1="0" x2="2560" y2="2160"/>
+    <line x1="3200" y1="0" x2="3200" y2="2160"/>
+  </g>
+
+  <!-- Decorative glows -->
+  <circle cx="3450" cy="260" r="520" fill="url(#glowCyan)"/>
+  <circle cx="420" cy="1950" r="560" fill="url(#glowPurple)"/>
+
+  <!-- ============ HEADER / EYEBROW ============ -->
+  <text x="160" y="200" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="63"
+        letter-spacing="9" fill="#4FD8E8" font-weight="600">Y-GATE</text>
+
+  <!-- Accent rule -->
+  <rect x="160" y="250" width="330" height="12" rx="6" fill="url(#accentGradient)"/>
+
+  <g transform="translate(280.00,-802.00) scale(1.6)">
+
+
+  <g transform="translate(230,980)">
+    <text x="0" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">|0&#10217;<tspan fill="#8B6BE0" dx="18">&#8658;</tspan></text>
+    <g transform="translate(500,0)">
+      <path d="M -110,-100 Q -145,8 -110,116" fill="none" stroke="url(#accentGradient)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M 100,-100 Q 135,8 100,116" fill="none" stroke="url(#accentGradient)" stroke-width="8" stroke-linecap="round"/>
+      <text x="-55" y="-30" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">0</text>
+      <text x="55" y="-30" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">&#8722;i</text>
+      <text x="-55" y="80" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">i</text>
+      <text x="55" y="80" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">0</text>
+      <text x="140" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" fill="#8B6BE0">Y</text>
+    </g>
+    <g transform="translate(880,0)">
+      <path d="M -25,-40 Q -40,18 -25,74" fill="none" stroke="url(#accentGradient)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 25,-40 Q 40,18 25,74" fill="none" stroke="url(#accentGradient)" stroke-width="6" stroke-linecap="round"/>
+      <text x="0" y="-4" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">1</text>
+      <text x="0" y="56" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">0</text>
+    </g>
+    <text x="990" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">=</text>
+    <g transform="translate(1220,0)">
+      <path d="M -25,-40 Q -40,18 -25,74" fill="none" stroke="url(#accentGradient)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 25,-40 Q 40,18 25,74" fill="none" stroke="url(#accentGradient)" stroke-width="6" stroke-linecap="round"/>
+      <text x="0" y="-4" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">0</text>
+      <text x="0" y="56" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">i</text>
+    </g>
+    <text x="1330" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">=</text>
+    <text x="1440" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">i|1&#10217;</text>
+  </g>
+  <g transform="translate(230,1430)">
+    <text x="0" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">|1&#10217;<tspan fill="#8B6BE0" dx="18">&#8658;</tspan></text>
+    <g transform="translate(500,0)">
+      <path d="M -110,-100 Q -145,8 -110,116" fill="none" stroke="url(#accentGradient)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M 100,-100 Q 135,8 100,116" fill="none" stroke="url(#accentGradient)" stroke-width="8" stroke-linecap="round"/>
+      <text x="-55" y="-30" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">0</text>
+      <text x="55" y="-30" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">&#8722;i</text>
+      <text x="-55" y="80" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">i</text>
+      <text x="55" y="80" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">0</text>
+      <text x="140" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" fill="#8B6BE0">Y</text>
+    </g>
+    <g transform="translate(880,0)">
+      <path d="M -25,-40 Q -40,18 -25,74" fill="none" stroke="url(#accentGradient)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 25,-40 Q 40,18 25,74" fill="none" stroke="url(#accentGradient)" stroke-width="6" stroke-linecap="round"/>
+      <text x="0" y="-4" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">0</text>
+      <text x="0" y="56" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">1</text>
+    </g>
+    <text x="990" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">=</text>
+    <g transform="translate(1220,0)">
+      <path d="M -25,-40 Q -40,18 -25,74" fill="none" stroke="url(#accentGradient)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 25,-40 Q 40,18 25,74" fill="none" stroke="url(#accentGradient)" stroke-width="6" stroke-linecap="round"/>
+      <text x="0" y="-4" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">&#8722;i</text>
+      <text x="0" y="56" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F5F6FA">0</text>
+    </g>
+    <text x="1330" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">=</text>
+    <text x="1440" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F5F6FA">&#8722;i|0&#10217;</text>
+  </g>
+
+  
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="160" y1="2000" x2="3680" y2="2000" stroke="#2C3560" stroke-width="2"/>
+
+  <text x="160" y="2065" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">EUMaster4HPC Summer School 2026</text>
+  <text x="1920" y="2065" text-anchor="middle" font-family="Segoe UI, Calibri, Arial, sans-serif" font-size="45" fill="#7C86A8">Microsoft &#8226; The Cronos Group</text>
+
+  <text x="3680" y="2065" text-anchor="end" font-family="Segoe UI, Calibri, Arial, sans-serif"
+        font-size="45" fill="#7C86A8">42</text>
+
+</svg>
