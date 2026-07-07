@@ -1,9 +1,16 @@
 # QuantumHandsOnLab-EUMaster4HPCSummerSchool-2026
+
 Quantum Hands-on Lab - EUMaster4HPC Summer School 2026
+
+## Live Platform
+
+Workshop participants can use the live online platform here: [https://qsharp.quantum-summer-lab.eu/](https://qsharp.quantum-summer-lab.eu/)
+
+The source code for this platform is available at: [https://github.com/Djohnnie/Quantum-Summer-Lab-2026](https://github.com/Djohnnie/Quantum-Summer-Lab-2026)
 
 ## Slides
 
-Slides are authored as 4K (3840x2160), 16:9 SVG images in the [`_slides`](./_slides) directory, one file per slide. Use [`_slides/template.svg`](./_slides/template.svg) as the base for new slides.
+Slides are authored as 4K (3840x2160), 16:9 SVG images in the [`_slides`](./_slides) directory, one file per slide.
 
 ### Slide 1 - Why Quantum? Tackling problems classical computers can't handle.
 
